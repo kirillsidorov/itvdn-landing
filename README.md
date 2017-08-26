@@ -1,1 +1,7 @@
-# itvdn-landing
+# Практикум по верстке лендинга от ITVDN
+
+## Требования:
+    node.js
+    npm
+    gulp v1.4.0
+
