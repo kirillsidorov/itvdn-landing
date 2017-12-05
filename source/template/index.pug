@@ -1,9 +1,13 @@
 doctype html
-html
+html(lang='ru')
     head
-        title My Site
+        meta(charset='UTF-8')
+        meta(http-equiv='X-UA-Compatible', content="IE-edge")
+        meta(name='viewport' content='width=device-width')
         link(rel='stylesheet', href='/css/main.min.css')
         //script(src='https://use.fontawesome.com/c132285593.js')
+        title Business
     body
         include sections/header.pug
+        include sections/hero.pug
         include sections/foot.pug
